@@ -13,6 +13,16 @@ export const members: Member[] = [
     websiteUrl: "https://taro.hatenablog.jp/",
   },
   {
+    nickname: 'jimbo',
+    realName: '神保嘉秀',
+    bio: '大阪からリモートワークしてます',
+    avatarSrc: 'https://pbs.twimg.com/profile_images/951461895231348736/wnfNYZpX.png',
+    sources: ['https://jmblog.jp/atom.xml', 'https://qiita.com/jimbo/feed'],
+    twitterUsername: 'jmblog',
+    githubUsername: 'jmblog',
+    websiteUrl: 'https://jmblog.jp'
+  },
+  {
     nickname: "たつろろ",
     realName: "中村達郎",
     bio: "Webフロントエンドが得意です。福岡在住",
