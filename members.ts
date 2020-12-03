@@ -38,7 +38,7 @@ export const members: Member[] = [
     nickname: "しきち",
     realName: "敷地琢也",
     bio: "フロント、バックエンド、スクラムマスターなんでもやります。最近はプロダクトオーナーやってます",
-    avatarSrc: "/avatars/shiraji.jpg",
+    avatarSrc: "/avatars/shikichee.jpg",
     sources: ["https://note.com/shikichee/rss"],
     includeUrlRegex: "note.com/shikichee",
     twitterUsername: "shikichee",
