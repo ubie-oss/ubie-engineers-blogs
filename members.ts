@@ -55,4 +55,14 @@ export const members: Member[] = [
     githubUsername: "shikichee",
     websiteUrl: "https://note.com/shikichee",
   },
+  {
+    nickname: "めぐ",
+    realName: "目黒博隆",
+    bio: "4児の父親エンジニア。フロント・バックエンド担当してます。",
+    avatarSrc: "/avatars/megu.jpg",
+    sources: ["https://qiita.com/maguhiro/feed"],
+    twitterUsername: "maguhiro",
+    githubUsername: "maguhiro",
+    websiteUrl: "https://qiita.com/maguhiro",
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
