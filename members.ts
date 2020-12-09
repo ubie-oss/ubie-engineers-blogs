@@ -56,6 +56,16 @@ export const members: Member[] = [
     websiteUrl: "https://note.com/shikichee",
   },
   {
+    nickname: "めぐ",
+    realName: "目黒博隆",
+    bio: "4児の父親エンジニア。フロント・バックエンド担当してます。",
+    avatarSrc: "/avatars/megu.jpg",
+    sources: ["https://qiita.com/maguhiro/feed"],
+    twitterUsername: "maguhiro",
+    githubUsername: "maguhiro",
+    websiteUrl: "https://qiita.com/maguhiro",
+  },
+  {
     nickname: "quvo",
     realName: "久保恒太",
     bio: "共同代表。元エンジニア兼なんでも屋",
