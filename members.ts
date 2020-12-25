@@ -76,4 +76,15 @@ export const members: Member[] = [
     githubUsername: "quvo",
     websiteUrl: "https://note.com/quvo_ub",
   },
+  {
+    nickname: "soup",
+    realName: "souppower",
+    bio: "強い犬",
+    avatarSrc: "/avatars/soup.png",
+    sources: ["https://qiita.com/souppower/feed"],
+    includeUrlRegex: "https://qiita.com/souppower",
+    twitterUsername: "souppower",
+    githubUsername: "souppower",
+    websiteUrl: "https://qiita.com/souppower",
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
