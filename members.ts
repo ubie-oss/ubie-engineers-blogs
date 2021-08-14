@@ -13,14 +13,15 @@ export const members: Member[] = [
     websiteUrl: "https://taro.hatenablog.jp/",
   },
   {
-    nickname: 'jimbo',
-    realName: '神保嘉秀',
-    bio: '大阪からリモートワークしてます',
-    avatarSrc: 'https://pbs.twimg.com/profile_images/951461895231348736/wnfNYZpX.png',
-    sources: ['https://jmblog.jp/atom.xml', 'https://qiita.com/jimbo/feed'],
-    twitterUsername: 'jmblog',
-    githubUsername: 'jmblog',
-    websiteUrl: 'https://jmblog.jp'
+    nickname: "jimbo",
+    realName: "神保嘉秀",
+    bio: "大阪からリモートワークしてます",
+    avatarSrc:
+      "https://pbs.twimg.com/profile_images/951461895231348736/wnfNYZpX.png",
+    sources: ["https://jmblog.jp/atom.xml", "https://qiita.com/jimbo/feed"],
+    twitterUsername: "jmblog",
+    githubUsername: "jmblog",
+    websiteUrl: "https://jmblog.jp",
   },
   {
     nickname: "たつろろ",
@@ -86,5 +87,15 @@ export const members: Member[] = [
     twitterUsername: "souppower",
     githubUsername: "souppower",
     websiteUrl: "https://qiita.com/souppower",
+  },
+  {
+    nickname: "itkq",
+    realName: "Takuya Kosugiyama",
+    bio: "YAML難しい",
+    avatarSrc: "/avatars/itkq.png",
+    sources: ["https://zenn.dev/itkq/feed"],
+    twitterUsername: "itkq",
+    githubUsername: "itkq",
+    websiteUrl: "https://itkq.jp/about/",
   },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));

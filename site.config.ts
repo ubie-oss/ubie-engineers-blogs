@@ -1,8 +1,8 @@
 export const config = {
   siteMeta: {
-    title: "Ubie Software Engineers",
+    title: "Ubie Engineering",
     teamName: "Ubie, inc.",
-    description: "Ubieのソフトウェアエンジニアのブログとか",
+    description: "Ubieのエンジニアのブログとか",
   },
   siteRoot:
     process.env.NODE_ENV === "production"
@@ -19,7 +19,7 @@ export const config = {
     },
     {
       title: "Recruit",
-      href: "https://herp.careers/v1/ubie/him9Aiqxd-Ja",
+      href: "https://recruit.ubie.life/jd_dev",
     },
   ],
 };
