@@ -13,14 +13,15 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14.x
+          cache: yarn
 
-      - run: npm ci
+      - run: yarn
 
-      - run: npm run build
+      - run: yarn build
         env:
-          URL_PREFIX: myapp
+          URL_PREFIX: team-blog-hub
 
-      - run: npm run export
+      - run: yarn export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
