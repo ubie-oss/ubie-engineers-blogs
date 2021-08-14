@@ -18,8 +18,8 @@ jobs:
       - run: yarn
 
       - run: yarn build
-        env:
-          URL_PREFIX: team-blog-hub
+        # env:
+        #   URL_PREFIX: team-blog-hub
 
       - run: yarn export
 
