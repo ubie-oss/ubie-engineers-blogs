@@ -10,10 +10,6 @@ export const config = {
       : "http://localhost:3000",
   headerLinks: [
     {
-      title: "About",
-      href: "/about",
-    },
-    {
       title: "Company",
       href: "https://ubie.life/",
     },
