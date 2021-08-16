@@ -18,7 +18,7 @@ export const members: Member[] = [
     bio: "大阪からリモートワークしてます",
     avatarSrc:
       "https://pbs.twimg.com/profile_images/951461895231348736/wnfNYZpX.png",
-    sources: ["https://jmblog.jp/atom.xml", "https://qiita.com/jimbo/feed"],
+    sources: ["https://jmblog.jp/atom.xml", "https://qiita.com/jimbo/feed", "https://zenn.dev/jimbo/feed"],
     twitterUsername: "jmblog",
     githubUsername: "jmblog",
     websiteUrl: "https://jmblog.jp",
