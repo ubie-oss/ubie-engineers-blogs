@@ -98,4 +98,14 @@ export const members: Member[] = [
     githubUsername: "itkq",
     websiteUrl: "https://itkq.jp/about/",
   },
+  {
+    nickname: "h13i32maru",
+    realName: "Ryo Maruyama",
+    bio: "JasperとかTrickleとか作ってる",
+    avatarSrc: "/avatars/h13i32maru.jpg",
+    sources: ["https://blog.h13i32maru.jp/feed"],
+    twitterUsername: "h13i32maru",
+    githubUsername: "h13i32maru",
+    websiteUrl: "https://h13i32maru.jp",
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
