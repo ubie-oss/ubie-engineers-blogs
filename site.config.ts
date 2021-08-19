@@ -4,7 +4,7 @@ export const config = {
     teamName: 'Ubie, inc.',
     description: 'Ubie Discoveryに所属するエンジニアのブログ記事をまとめています。',
   },
-  siteRoot: process.env.NODE_ENV === 'production' ? 'https://team-blog-hub.vercel.app' : 'http://localhost:3000',
+  siteRoot: process.env.NODE_ENV === 'production' ? 'https://blog.ubie.tech' : 'http://localhost:3000',
   headerLinks: [
     {
       title: 'Company',
