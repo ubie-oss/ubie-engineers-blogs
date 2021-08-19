@@ -122,6 +122,16 @@ export const members: Member[] = [
     websiteUrl: 'https://empitsu88.hatenablog.com/entry/myprofile',
   },
   {
+    nickname: "ゆうく",
+    realName: "Yuku Kotani",
+    bio: "Webと長濱ねるさんが好きです",
+    avatarSrc: "/avatars/yuku.png",
+    sources: ["https://yuku.dev/feed.xml", "https://zenn.dev/yuku/feed"],
+    githubUsername: "Monchi",
+    twitterUsername: "MonchiFC",
+    websiteUrl: "https://yuku.dev",
+  },
+  {
     nickname: 'kamina_zzz',
     realName: 'Kaito Minatoya',
     bio: 'Sake Reliability Engineer',
