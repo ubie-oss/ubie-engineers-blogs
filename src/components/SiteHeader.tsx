@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { config } from "@site.config";
+import Link from 'next/link';
+import { config } from '@site.config';
 
-import { ContentWrapper } from "@src/components/ContentWrapper";
+import { ContentWrapper } from '@src/components/ContentWrapper';
 
 export const SiteHeader: React.FC = () => (
   <header className="site-header">
@@ -9,17 +9,18 @@ export const SiteHeader: React.FC = () => (
       <div className="site-header__inner">
         <Link href="/" passHref>
           <a className="site-header__logo-link">
-            <img
-              src="/logo.png"
-              alt={config.siteMeta.title}
-              className="site-header__logo-img"
-            />
+            <img src="/logo.png" alt={config.siteMeta.title} className="site-header__logo-img" />
+            <span className="site-header__logo-text">
+              Ubie
+              <br />
+              Engineers' blogs
+            </span>
           </a>
         </Link>
         <div className="site-header__links">
           {config.headerLinks.map((link, i) => {
             const key = `header-link-${i}`;
-            if (link.href.startsWith("/")) {
+            if (link.href.startsWith('/')) {
               return (
                 <Link key={key} href={link.href} passHref>
                   <a className="site-header__link">{link.title}</a>

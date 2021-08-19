@@ -1,15 +1,10 @@
-import { useState } from "react";
-import Link from "next/link";
-import dayjs from "dayjs";
-import relativeTime from "dayjs/plugin/relativeTime";
+import { useState } from 'react';
+import Link from 'next/link';
+import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
 
-import { PostItem } from "@src/types";
-import {
-  getMemberByName,
-  getHostFromURL,
-  getFaviconSrcFromHostname,
-  getMemberPath,
-} from "@src/utils/helper";
+import { PostItem } from '@src/types';
+import { getMemberByName, getHostFromURL, getFaviconSrcFromHostname, getMemberPath } from '@src/utils/helper';
 
 dayjs.extend(relativeTime);
 
@@ -24,12 +19,7 @@ const PostLink: React.FC<{ item: PostItem }> = (props) => {
     <article className="post-link">
       <Link href={getMemberPath(member.nickname)} passHref>
         <a className="post-link__author">
-          <img
-            src={member.avatarSrc}
-            className="post-link__author-img"
-            width={35}
-            height={35}
-          />
+          <img src={member.avatarSrc} className="post-link__author-img" width={35} height={35} />
           <div className="post-link__author-name">
             <div className="post-link__author-name">{member.nickname}</div>
             <time dateTime={isoDate} className="post-link__date">
@@ -42,12 +32,7 @@ const PostLink: React.FC<{ item: PostItem }> = (props) => {
         <h2 className="post-link__title">{title}</h2>
         {hostname && (
           <div className="post-link__site">
-            <img
-              src={getFaviconSrcFromHostname(hostname)}
-              width={14}
-              height={14}
-              className="post-link__site-favicon"
-            />
+            <img src={getFaviconSrcFromHostname(hostname)} width={14} height={14} className="post-link__site-favicon" />
             {hostname}
           </div>
         )}
@@ -77,10 +62,7 @@ export const PostList: React.FC<{ items: PostItem[] }> = (props) => {
       </div>
       {canLoadMore && (
         <div className="post-list-load">
-          <button
-            onClick={() => setDisplayItemsCount(displayItemsCount + 32)}
-            className="post-list-load__button"
-          >
+          <button onClick={() => setDisplayItemsCount(displayItemsCount + 32)} className="post-list-load__button">
             LOAD MORE
           </button>
         </div>

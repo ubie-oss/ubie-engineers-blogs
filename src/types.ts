@@ -1,6 +1,6 @@
 export type Member = {
   nickname: string;
-  avatarSrc: string;
+  avatarSrc: string; // 自分のアイコン画像。正方形の画像を指定して下さい！
   realName?: string;
   bio?: string;
   sources?: string[];

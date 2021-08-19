@@ -1,4 +1,4 @@
-const urlPrefix = process.env.URL_PREFIX ? "/" + process.env.URL_PREFIX : "";
+const urlPrefix = process.env.URL_PREFIX ? '/' + process.env.URL_PREFIX : '';
 
 module.exports = {
   assetPrefix: urlPrefix,
