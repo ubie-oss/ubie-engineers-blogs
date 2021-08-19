@@ -116,4 +116,14 @@ export const members: Member[] = [
     twitterUsername: 'empitsu88',
     websiteUrl: 'https://empitsu88.hatenablog.com/entry/myprofile',
   },
+  {
+    nickname: 'mizutani',
+    realName: 'Masayoshi Mizutani',
+    bio: 'セキュリティやってます',
+    avatarSrc: '/avatars/mizutani.jpeg',
+    sources: ['https://mztn.hatenablog.com/rss', 'https://zenn.dev/mizutani/feed'],
+    twitterUsername: 'm_mizutani',
+    githubUsername: 'm-mizutani',
+    websiteUrl: 'https://github.com/m-mizutani',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
