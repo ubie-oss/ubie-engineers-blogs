@@ -184,4 +184,14 @@ export const members: Member[] = [
     twitterUsername: 'cvguy84', // inactive
     websiteUrl: 'https://blog.cvguy.de/',
   },
+  {
+    nickname: 'やぎ',
+    realName: '八木俊広',
+    bio: 'Androidアプリエンジニアだったけどなんでもやってるよ',
+    avatarSrc: '/avatars/sys1yagi.png',
+    sources: ['https://note.com/sys1yagi/rss', 'https://sys1yagi.hatenablog.com/rss'],
+    twitterUsername: 'sys1yagi',
+    githubUsername: 'sys1yagi',
+    websiteUrl: 'https://note.com/sys1yagi/',
+  }
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
