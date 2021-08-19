@@ -117,6 +117,15 @@ export const members: Member[] = [
     websiteUrl: 'https://empitsu88.hatenablog.com/entry/myprofile',
   },
   {
+    nickname: 'kamina_zzz',
+    realName: 'Kaito Minatoya',
+    bio: 'Sake Reliability Engineer',
+    avatarSrc: '/avatars/kamina_zzz.jpg',
+    sources: ['https://note.com/kamina_zzz/rss', 'https://zenn.dev/kamina_zzz/feed', 'https://qiita.com/kamina_zzz/feed'],
+    twitterUsername: 'kamina_zzz',
+    websiteUrl: 'https://y.at/🍺🤘🎧🤘🍺',
+  },
+  {
     nickname: 'mizutani',
     realName: 'Masayoshi Mizutani',
     bio: 'セキュリティやってます',
