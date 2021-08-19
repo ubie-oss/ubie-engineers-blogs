@@ -138,7 +138,7 @@ export const members: Member[] = [
     nickname: 'mizutani',
     realName: 'Masayoshi Mizutani',
     bio: 'セキュリティやってます',
-    avatarSrc: '/avatars/mizutani.jpeg',
+    avatarSrc: '/avatars/mizutani.jpg',
     sources: ['https://mztn.hatenablog.com/rss', 'https://zenn.dev/mizutani/feed'],
     twitterUsername: 'm_mizutani',
     githubUsername: 'm-mizutani',
