@@ -164,4 +164,14 @@ export const members: Member[] = [
     twitterUsername: "yag_ays",
     websiteUrl: "https://yag.xyz/",
   },
+  {
+    nickname: "syucream",
+    realName: "Ryo Okubo",
+    bio: "A software Engineer",
+    avatarSrc: "/avatars/syucream.jpg",
+    sources: ["https://syucream.hatenablog.jp/feed"],
+    githubUsername: "syucream",
+    twitterUsername: "syu_cream",
+    websiteUrl: "https://syucream.hatenablog.jp/",
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
