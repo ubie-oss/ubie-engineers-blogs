@@ -144,4 +144,14 @@ export const members: Member[] = [
     githubUsername: 'm-mizutani',
     websiteUrl: 'https://github.com/m-mizutani',
   },
+  {
+    nickname: "yag_ays",
+    realName: "yag_ays",
+    bio: "機械学習エンジニア。専門は自然言語処理。愛犬はコーギー。",
+    avatarSrc: "/avatars/yag.png",
+    sources: ["https://zenn.dev/yag_ays/feed", "https://yag-ays.github.io/index.xml"],
+    githubUsername: "yagays",
+    twitterUsername: "yag_ays",
+    websiteUrl: "https://yag.xyz/",
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
