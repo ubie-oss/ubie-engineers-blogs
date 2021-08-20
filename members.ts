@@ -2,6 +2,7 @@ import { Member } from '@src/types';
 
 export const members: Member[] = [
   {
+    id: 'taro',
     nickname: 'たろう',
     realName: '長澤太郎',
     bio: 'Kotlinの人だけど、いろいろやってるよ！',
@@ -13,6 +14,7 @@ export const members: Member[] = [
     websiteUrl: 'https://taro.hatenablog.jp/',
   },
   {
+    id: 'jimbo',
     nickname: 'jimbo',
     realName: '神保嘉秀',
     bio: '大阪からリモートワークしてます',
@@ -28,6 +30,7 @@ export const members: Member[] = [
     websiteUrl: 'https://jmblog.jp',
   },
   {
+    id: 'tatsuroro',
     nickname: 'たつろろ',
     realName: '中村達郎',
     bio: 'Webフロントエンドが得意です。福岡在住',
@@ -39,6 +42,7 @@ export const members: Member[] = [
     websiteUrl: 'https://tatsuroro.hateblo.jp/',
   },
   {
+    id: 'shiraji',
     nickname: 'しらじ',
     realName: '磯貝佳典',
     bio: '家紋アイコンしらじです。フロント、バックエンドやってます',
@@ -50,6 +54,7 @@ export const members: Member[] = [
     websiteUrl: 'https://shiraji.hatenablog.com',
   },
   {
+    id: 'shikichee',
     nickname: 'しきち',
     realName: '敷地琢也',
     bio: 'フロント、バックエンド、スクラムマスターなんでもやります。最近はプロダクトオーナーやってます',
@@ -61,6 +66,7 @@ export const members: Member[] = [
     websiteUrl: 'https://note.com/shikichee',
   },
   {
+    id: 'maguhiro',
     nickname: 'maguhiro',
     realName: '目黒博隆',
     bio: '4児の父親エンジニア。フロント・バックエンド担当してます。',
@@ -71,6 +77,7 @@ export const members: Member[] = [
     websiteUrl: 'https://note.com/maguhiro',
   },
   {
+    id: 'quvo',
     nickname: 'quvo',
     realName: '久保恒太',
     bio: '共同代表。元エンジニア兼なんでも屋',
@@ -82,6 +89,7 @@ export const members: Member[] = [
     websiteUrl: 'https://note.com/quvo_ub',
   },
   {
+    id: 'soup',
     nickname: 'soup',
     realName: 'souppower',
     bio: '強い犬',
@@ -93,6 +101,7 @@ export const members: Member[] = [
     websiteUrl: 'https://qiita.com/souppower',
   },
   {
+    id: 'itkq',
     nickname: 'itkq',
     realName: 'Takuya Kosugiyama',
     bio: 'YAML難しい',
@@ -103,6 +112,7 @@ export const members: Member[] = [
     websiteUrl: 'https://itkq.jp/about/',
   },
   {
+    id: 'h13i32maru',
     nickname: 'h13i32maru',
     realName: 'Ryo Maruyama',
     bio: 'JasperとかTrickleとか作ってる',
@@ -113,6 +123,7 @@ export const members: Member[] = [
     websiteUrl: 'https://h13i32maru.jp',
   },
   {
+    id: 'empitsu',
     nickname: 'えんぴつ',
     realName: 'empitsu',
     bio: 'フロントエンドが得意です。1児の母。',
@@ -122,6 +133,7 @@ export const members: Member[] = [
     websiteUrl: 'https://empitsu88.hatenablog.com/entry/myprofile',
   },
   {
+    id: 'yuku',
     nickname: 'ゆうく',
     realName: 'Yuku Kotani',
     bio: 'Webと長濱ねるさんが好きです',
@@ -132,6 +144,7 @@ export const members: Member[] = [
     websiteUrl: 'https://yuku.dev',
   },
   {
+    id: 'kamina_zzz',
     nickname: 'kamina_zzz',
     realName: 'Kaito Minatoya',
     bio: 'Sake Reliability Engineer',
@@ -145,6 +158,7 @@ export const members: Member[] = [
     websiteUrl: 'https://y.at/🍺🤘🎧🤘🍺',
   },
   {
+    id: 'mizutani',
     nickname: 'mizutani',
     realName: 'Masayoshi Mizutani',
     bio: 'セキュリティやってます',
@@ -155,6 +169,7 @@ export const members: Member[] = [
     websiteUrl: 'https://github.com/m-mizutani',
   },
   {
+    id: 'yag_ays',
     nickname: 'yag_ays',
     realName: 'yag_ays',
     bio: '機械学習エンジニア。専門は自然言語処理。愛犬はコーギー。',
@@ -165,6 +180,7 @@ export const members: Member[] = [
     websiteUrl: 'https://yag.xyz/',
   },
   {
+    id: 'syucream',
     nickname: 'syucream',
     realName: 'Ryo Okubo',
     bio: 'A software Engineer',
@@ -175,6 +191,7 @@ export const members: Member[] = [
     websiteUrl: 'https://syucream.hatenablog.jp/',
   },
   {
+    id: 'lukasjapan',
     nickname: 'lukasjapan',
     realName: 'Lukas Prasuhn',
     bio: 'Full Stack Software Engineer based in Tokyo',
@@ -185,6 +202,7 @@ export const members: Member[] = [
     websiteUrl: 'https://blog.cvguy.de/',
   },
   {
+    id: 'sys1yagi',
     nickname: 'やぎ',
     realName: '八木俊広',
     bio: 'Androidアプリエンジニアだったけどなんでもやってるよ',
@@ -193,5 +211,5 @@ export const members: Member[] = [
     twitterUsername: 'sys1yagi',
     githubUsername: 'sys1yagi',
     websiteUrl: 'https://note.com/sys1yagi/',
-  }
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));

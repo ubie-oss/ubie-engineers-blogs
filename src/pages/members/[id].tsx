@@ -4,7 +4,7 @@ import { PostItem, Member } from '@src/types';
 import { PostList } from '@src/components/PostList';
 import { ContentWrapper } from '@src/components/ContentWrapper';
 import { PageSEO } from '@src/components/PageSEO';
-import { getMemberByName, getMemberPostsByName, getMemberPath } from '@src/utils/helper';
+import { getMemberById, getMemberPath, getMemberPostsById } from '@src/utils/helper';
 
 type Props = {
   postItems: PostItem[];
@@ -12,11 +12,11 @@ type Props = {
 };
 
 const Page: NextPage<Props> = (props) => {
-  const { nickname, realName, bio, avatarSrc, twitterUsername, githubUsername, websiteUrl } = props.member;
+  const { id, nickname, realName, bio, avatarSrc, twitterUsername, githubUsername, websiteUrl } = props.member;
 
   return (
     <>
-      <PageSEO title={nickname} path={getMemberPath(nickname)} />
+      <PageSEO title={nickname} path={getMemberPath(id)} />
       <section className="member">
         <ContentWrapper>
           <header className="member-header">
@@ -55,9 +55,9 @@ const Page: NextPage<Props> = (props) => {
 };
 
 export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
-  const name = params?.name as string;
-  const member = getMemberByName(name);
-  const postItems = getMemberPostsByName(name);
+  const id = params?.id as string;
+  const member = getMemberById(id);
+  const postItems = getMemberPostsById(id);
 
   if (!member) throw 'User not found';
 
@@ -70,11 +70,11 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const memberNameList = members.map((member) => encodeURIComponent(member.nickname));
-  const paths = memberNameList.map((name) => {
+  const memberNameList = members.map((member) => encodeURIComponent(member.id));
+  const paths = memberNameList.map((id) => {
     return {
       params: {
-        name,
+        id,
       },
     };
   });

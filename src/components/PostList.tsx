@@ -17,7 +17,7 @@ const PostLink: React.FC<{ item: PostItem }> = (props) => {
 
   return (
     <article className="post-link">
-      <Link href={getMemberPath(member.nickname)} passHref>
+      <Link href={getMemberPath(member.id)} passHref>
         <a className="post-link__author">
           <img src={member.avatarSrc} className="post-link__author-img" width={35} height={35} />
           <div className="post-link__author-name">

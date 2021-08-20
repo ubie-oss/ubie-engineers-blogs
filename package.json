@@ -8,7 +8,9 @@
     "build:posts": "ts-node --project tsconfig.builder.json ./src/builder/posts.ts",
     "build:next": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "typecheck": "tsc --noEmit",
+    "format:fix": "prettier --write ."
   },
   "dependencies": {
     "dayjs": "^1.9.3",
