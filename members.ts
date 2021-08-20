@@ -61,7 +61,7 @@ export const members: Member[] = [
     websiteUrl: 'https://note.com/shikichee',
   },
   {
-    nickname: 'めぐ',
+    nickname: 'maguhiro',
     realName: '目黒博隆',
     bio: '4児の父親エンジニア。フロント・バックエンド担当してます。',
     avatarSrc: '/avatars/megu.jpg',
