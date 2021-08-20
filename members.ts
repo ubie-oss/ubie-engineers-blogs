@@ -82,7 +82,7 @@ export const members: Member[] = [
     realName: '久保恒太',
     bio: '共同代表。元エンジニア兼なんでも屋',
     avatarSrc: '/avatars/quvo.jpg',
-    sources: ['https://note.com/quvo_ub/rss'],
+    sources: ['https://note.com/quvo_ub/rss', 'https://anchor.fm/s/3b652dc8/podcast/rss', 'https://anchor.fm/s/667d3c6c/podcast/rss'],
     includeUrlRegex: 'note.com/quvo_ub',
     twitterUsername: 'quvo_ubie',
     githubUsername: 'quvo',
