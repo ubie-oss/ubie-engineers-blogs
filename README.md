@@ -18,6 +18,8 @@ $ yarn dev
 
 ```typescript
   {
+      // urlに使うので半角英数字にしてください。
+    id: "empitsu",
     nickname: "えんぴつ",
     realName: "empitsu",
     bio: "フロントエンドが得意です。1児の母。",
