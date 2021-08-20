@@ -212,4 +212,15 @@ export const members: Member[] = [
     githubUsername: 'sys1yagi',
     websiteUrl: 'https://note.com/sys1yagi/',
   },
+  {
+    id: 'yoheikikuta',
+    nickname: 'yoheikikuta',
+    realName: 'Yohei Kikuta',
+    bio: 'learning machine learning',
+    avatarSrc: '/avatars/yoheikikuta.jpg',
+    sources: ['https://yoheikikuta.github.io/feed.xml'],
+    twitterUsername: 'yohei_kikuta',
+    githubUsername: 'yoheikikuta',
+    websiteUrl: 'https://github.com/yoheikikuta/resume',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
