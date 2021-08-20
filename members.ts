@@ -65,10 +65,10 @@ export const members: Member[] = [
     realName: '目黒博隆',
     bio: '4児の父親エンジニア。フロント・バックエンド担当してます。',
     avatarSrc: '/avatars/megu.jpg',
-    sources: ['https://qiita.com/maguhiro/feed'],
+    sources: ['https://qiita.com/maguhiro/feed', 'https://note.com/maguhiro/rss'],
     twitterUsername: 'maguhiro',
     githubUsername: 'maguhiro',
-    websiteUrl: 'https://qiita.com/maguhiro',
+    websiteUrl: 'https://note.com/maguhiro',
   },
   {
     nickname: 'quvo',
