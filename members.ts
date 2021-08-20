@@ -126,7 +126,7 @@ export const members: Member[] = [
     id: 'empitsu',
     nickname: 'えんぴつ',
     realName: 'empitsu',
-    bio: 'フロントエンドが得意です。1児の母。',
+    bio: 'Software Engineer. フロントエンドが好きです。1児の母。',
     avatarSrc: '/avatars/empitsu.jpeg',
     sources: ['https://note.com/empitsu88/rss', 'https://zenn.dev/empitsu88/feed', 'https://qiita.com/empitsu88/feed'],
     twitterUsername: 'empitsu88',
