@@ -171,7 +171,7 @@ export const members: Member[] = [
   {
     id: 'yag_ays',
     nickname: 'yag_ays',
-    realName: 'yag_ays',
+    realName: 'Yuki Okuda',
     bio: '機械学習エンジニア。専門は自然言語処理。愛犬はコーギー。',
     avatarSrc: '/avatars/yag.png',
     sources: ['https://zenn.dev/yag_ays/feed', 'https://yag-ays.github.io/index.xml'],
