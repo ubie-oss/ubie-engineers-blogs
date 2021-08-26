@@ -223,4 +223,13 @@ export const members: Member[] = [
     githubUsername: 'yoheikikuta',
     websiteUrl: 'https://github.com/yoheikikuta/resume',
   },
+  {
+    id: "smochi",
+    nickname: "smochi",
+    realName: "Shunichi Mochizuki",
+    bio: "新規事業のグロースなど、いろいろやってます。スタートアップや機械学習に興味があります",
+    avatarSrc: "/avatars/smochi.jpeg",
+    sources: ["https://qiita.com/smochi/feed", "https://note.com/smochi_pub/rss"],
+    twitterUsername: "smochi_pub"
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
