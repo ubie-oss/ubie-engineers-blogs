@@ -13,7 +13,7 @@ export const SiteHeader: React.FC = () => (
             <span className="site-header__logo-text">
               Ubie
               <br />
-              Engineers' Blog Hub
+              Engineers' Blogs
             </span>
           </a>
         </Link>

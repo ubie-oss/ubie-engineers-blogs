@@ -1,6 +1,6 @@
 export const config = {
   siteMeta: {
-    title: "Ubie Engineers' Blog Hub",
+    title: "Ubie Engineers' Blogs",
     teamName: 'Ubie Discovery',
     description: 'Ubie Discoveryに所属するエンジニアのブログ記事をまとめています。',
   },
