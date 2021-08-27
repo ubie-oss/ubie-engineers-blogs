@@ -2,7 +2,7 @@
 
 Fork of https://github.com/catnose99/team-blog-hub
 
-published at: https://potential-engine-4bc1532d.pages.github.io/
+published at: https://blog.ubie.tech/
 
 ## Development
 
