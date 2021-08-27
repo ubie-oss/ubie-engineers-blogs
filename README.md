@@ -1,4 +1,4 @@
-# Team Blog Hub for Ubie
+# Ubie Engineers' Blogs
 
 Fork of https://github.com/catnose99/team-blog-hub
 
