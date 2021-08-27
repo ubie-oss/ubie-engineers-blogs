@@ -23,14 +23,14 @@ export const SiteHeader: React.FC = () => (
             if (link.href.startsWith('/')) {
               return (
                 <Link key={key} href={link.href} passHref>
-                  <a className="site-header__link">
+                  <a className="site-header__link" target="_blank">
                     {link.title}
                   </a>
                 </Link>
               );
             }
             return (
-              <a key={key} href={link.href} className="site-header__link">
+              <a key={key} href={link.href} className="site-header__link" target="_blank">
                 {link.title}
               </a>
             );
