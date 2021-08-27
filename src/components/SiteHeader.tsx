@@ -13,7 +13,7 @@ export const SiteHeader: React.FC = () => (
             <span className="site-header__logo-text">
               Ubie
               <br />
-              Engineers' blogs
+              Engineers' Blog Hub
             </span>
           </a>
         </Link>
@@ -23,7 +23,9 @@ export const SiteHeader: React.FC = () => (
             if (link.href.startsWith('/')) {
               return (
                 <Link key={key} href={link.href} passHref>
-                  <a className="site-header__link">{link.title}</a>
+                  <a className="site-header__link">
+                    {link.title}
+                  </a>
                 </Link>
               );
             }
