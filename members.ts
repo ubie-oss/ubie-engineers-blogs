@@ -188,7 +188,7 @@ export const members: Member[] = [
     realName: 'Lukas Prasuhn',
     bio: 'Full Stack Software Engineer based in Tokyo',
     avatarSrc: '/avatars/lukas.png',
-    sources: ['https://blog.cvguy.de/feed.xml', 'https://medium.com/feed/@lukasjp'],
+    sources: ['https://medium.com/feed/@lukasjp'],
     githubUsername: 'lukasjapan',
     twitterUsername: 'cvguy84', // inactive
     websiteUrl: 'https://blog.cvguy.de/',
@@ -236,12 +236,12 @@ export const members: Member[] = [
     websiteUrl: 'https://note.com/masa_kazama',
   },
   {
-    id: "jaga",
-    nickname: "Jaga",
-    realName: "Naoto Sakai",
-    bio: "Data Analyst",
-    avatarSrc: "/avatars/jaga.jpeg",
-    sources: ["https://note.com/jagabass/rss"],
-    twitterUsername: "jagabass"
+    id: 'jaga',
+    nickname: 'Jaga',
+    realName: 'Naoto Sakai',
+    bio: 'Data Analyst',
+    avatarSrc: '/avatars/jaga.jpeg',
+    sources: ['https://note.com/jagabass/rss'],
+    twitterUsername: 'jagabass',
   },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
