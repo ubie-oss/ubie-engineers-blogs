@@ -253,4 +253,13 @@ export const members: Member[] = [
     sources: ["https://attsun1031.github.io/index.xml"],
     twitterUsername: "__Attsun__"
   },
+  {
+    id: "Schumi543",
+    nickname: "Schumi543",
+    realName: "Shuji Mihara",
+    bio: "Software Engineer(Data, ML)",
+    avatarSrc: "/avatars/schumi.jpeg",
+    sources: ["https://schumi543.hatenablog.com/feed"],
+    twitterUsername: "Schumi543"
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
