@@ -262,4 +262,15 @@ export const members: Member[] = [
     sources: ["https://schumi543.hatenablog.com/feed"],
     twitterUsername: "Schumi543"
   },
+  {
+    id: "shikajiro",
+    nickname: "shikajiro",
+    realName: "Shinjiro Watanabe",
+    bio: "鹿似のエンジニアです。犬が好きです。",
+    avatarSrc: "/avatars/shikajiro.jpg",
+    sources: ["https://note.com/shikajiro/rss", "https://zenn.dev/shikajiro/feed", "https://qiita.com/shikajiro/feed"],
+    githubUsername: "shikajiro",
+    twitterUsername: "shikajiro",
+    websiteUrl: "https://shikajiro.github.io/"
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
