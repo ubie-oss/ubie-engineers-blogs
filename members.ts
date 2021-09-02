@@ -273,4 +273,14 @@ export const members: Member[] = [
     twitterUsername: "shikajiro",
     websiteUrl: "https://shikajiro.github.io/"
   },
+  {
+    id: "hokaccha",
+    nickname: "hokaccha",
+    realName: "Kazuhito Hokamura",
+    bio: "Software Engineer. 福岡在住。",
+    avatarSrc: "/avatars/hokaccha.jpg",
+    sources: ["https://hokaccha.hatenablog.com/feed", "https://zenn.dev/hokaccha/feed"],
+    githubUsername: "hokaccha",
+    twitterUsername: "hokaccha",
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
