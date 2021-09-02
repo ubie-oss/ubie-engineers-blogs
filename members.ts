@@ -267,7 +267,7 @@ export const members: Member[] = [
     nickname: "shikajiro",
     realName: "Shinjiro Watanabe",
     bio: "鹿似のエンジニアです。犬が好きです。",
-    avatarSrc: "/avatars/shikajiro.jpg",
+    avatarSrc: "/avatars/shikajiro.jpeg",
     sources: ["https://note.com/shikajiro/rss", "https://zenn.dev/shikajiro/feed", "https://qiita.com/shikajiro/feed"],
     githubUsername: "shikajiro",
     twitterUsername: "shikajiro",
