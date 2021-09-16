@@ -295,4 +295,14 @@ export const members: Member[] = [
     githubUsername: 'dtaniwaki',
     websiteUrl: 'https://note.com/dtaniwaki',
   },
+  {
+    id: 'takahi-i',
+    nickname: 'takahi-i',
+    realName: '伊藤敬彦',
+    bio: '文字列をゴニョゴヨするプログラムを書くのが好きです',
+    avatarSrc: '/avatars/takahi-i.jpeg',
+    sources: ['https://note.com/takahi_i/rss'],
+    twitterUsername: 'takahi_i',
+    githubUsername: 'takahi-i',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
