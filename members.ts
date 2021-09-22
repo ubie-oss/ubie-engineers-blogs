@@ -87,7 +87,6 @@ export const members: Member[] = [
       'https://anchor.fm/s/3b652dc8/podcast/rss',
       'https://anchor.fm/s/667d3c6c/podcast/rss',
     ],
-    includeUrlRegex: 'note.com/quvo_ub',
     twitterUsername: 'quvo_ubie',
     githubUsername: 'quvo',
     websiteUrl: 'https://note.com/quvo_ub',
