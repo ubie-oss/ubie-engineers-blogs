@@ -187,7 +187,7 @@ export const members: Member[] = [
     realName: 'Lukas Prasuhn',
     bio: 'Full Stack Software Engineer based in Tokyo',
     avatarSrc: '/avatars/lukas.png',
-    sources: ['https://blog.cvguy.de/feed.xml', 'https://medium.com/feed/@lukasjp'],
+    sources: ['https://medium.com/feed/@lukasjp'],
     githubUsername: 'lukasjapan',
     twitterUsername: 'cvguy84', // inactive
     websiteUrl: 'https://blog.cvguy.de/',
