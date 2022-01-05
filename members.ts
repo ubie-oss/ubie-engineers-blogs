@@ -304,4 +304,15 @@ export const members: Member[] = [
     twitterUsername: 'takahi_i',
     githubUsername: 'takahi-i',
   },
+  {
+    id: 'takanorip',
+    nickname: 'takanorip',
+    realName: 'Takanori Oki',
+    bio: 'Design Engineerです。Webが好きです。',
+    avatarSrc: '/avatars/takanorip,png',
+    sources: ['https://zenn.dev/takanorip/feed'],
+    twitterUsername: 'takanoripe',
+    githubUsername: 'takanorip',
+    websiteUrl: 'https://takanorip.com',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
