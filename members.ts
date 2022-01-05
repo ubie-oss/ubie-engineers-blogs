@@ -309,7 +309,7 @@ export const members: Member[] = [
     nickname: 'takanorip',
     realName: 'Takanori Oki',
     bio: 'Design Engineerです。Webが好きです。',
-    avatarSrc: '/avatars/takanorip,png',
+    avatarSrc: '/avatars/takanorip.png',
     sources: ['https://zenn.dev/takanorip/feed'],
     twitterUsername: 'takanoripe',
     githubUsername: 'takanorip',
