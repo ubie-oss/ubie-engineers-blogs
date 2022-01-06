@@ -1,6 +1,6 @@
 .scrollable-members {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   overflow-x: scroll;
   padding-bottom: 1rem; /* for scrollbar */
   -webkit-overflow-scrolling: touch;
@@ -28,6 +28,10 @@
   text-align: center;
   line-height: 1.5;
   scroll-snap-align: center;
+  position: relative;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 .scrollable-member__image,
 .scrollable-member__img,
@@ -36,7 +40,7 @@
   display: block;
 }
 .scrollable-member__img {
-  border-radius: 18px;
+  border-radius: 50%;
   margin: 0 auto;
 }
 

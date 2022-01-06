@@ -20,9 +20,9 @@ const Page: NextPage<Props> = (props) => {
       <section className="member">
         <ContentWrapper>
           <header className="member-header">
-            <div className="member-header__avatar">
-              <img src={avatarSrc} alt={nickname} width={100} height={100} className="member-header__avatar-img" />
-            </div>
+            <figure className="member-header__avatar">
+              <img src={avatarSrc} alt={nickname} width={200} height={200} className="member-header__avatar-img" />
+            </figure>
             <h1 className="member-header__nickname">{nickname}</h1>
             <p className="member-header__real-name">{realName}</p>
             <p className="member-header__bio">{bio}</p>

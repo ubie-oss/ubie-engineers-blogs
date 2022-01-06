@@ -2,15 +2,17 @@
   padding: 2rem 0;
   text-align: center;
 }
+.member-header__avatar {
+  line-height: 0;
+}
 .member-header__avatar-img {
-  border-radius: 18px;
+  border-radius: 50%;
 }
 .member-header__nickname {
   margin-top: 0.5rem;
   font-size: 1.5rem;
 }
 .member-header__real-name {
-  margin-top: 0.8rem;
   font-size: 0.9rem;
   color: var(--color-base-text-lighter);
 }
@@ -35,6 +37,10 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 10px;
-  background: var(--color-base-background-lighter);
+  border-radius: 4px;
+  background: var(--color-base-text);
+
+  &:hover {
+    background: var(--color-primary-text);
+  }
 }
