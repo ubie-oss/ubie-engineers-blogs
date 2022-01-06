@@ -12,6 +12,7 @@ $side-padding-sm: 1rem;
   flex-flow: column;
   position: relative;
   background: var(--color-base-background-lighter);
+  border-radius: 4px;
 }
 .post-link__author {
   padding: 1.6rem $side-padding 0;
@@ -19,6 +20,9 @@ $side-padding-sm: 1rem;
   align-items: center;
   font-size: 13px;
   line-height: 1.4;
+  &:hover {
+    text-decoration: underline;
+  }
   @include mq(sm) {
     padding: 1.4rem $side-padding-sm 0;
   }
@@ -28,6 +32,9 @@ $side-padding-sm: 1rem;
   flex: 1;
   display: flex;
   flex-flow: column;
+  &:hover {
+    text-decoration: underline;
+  }
   @include mq(sm) {
     padding: 1rem $side-padding-sm 1.2rem;
   }
@@ -38,7 +45,7 @@ $side-padding-sm: 1rem;
 }
 
 .post-link__author-img {
-  border-radius: 25%;
+  border-radius: 50%;
   margin-right: 0.7rem;
 }
 .post-link__title {
@@ -59,18 +66,18 @@ $side-padding-sm: 1rem;
 }
 .post-link__new-label {
   position: absolute;
-  right: -5px;
-  top: -5px;
+  right: -8px;
+  top: -8px;
   display: block;
   text-align: center;
-  width: 38px;
-  height: 38px;
-  line-height: 38px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   font-size: 11px;
   font-weight: bold;
   color: #fff;
   background: var(--color-primary-background);
-  border-radius: 12px;
+  border-radius: 6px;
   @include mq(sm) {
     right: 0;
     top: 0;
@@ -83,17 +90,10 @@ $side-padding-sm: 1rem;
 }
 
 .post-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  .post-link {
-    margin-top: 5%;
-    width: 47.5%;
-    @include mq(sm) {
-      margin-top: 1.3rem;
-      width: 100%;
-    }
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
 }
 .post-list-load {
   margin-top: 3rem;

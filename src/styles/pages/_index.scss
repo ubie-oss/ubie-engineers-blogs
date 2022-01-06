@@ -27,6 +27,10 @@
 .home-section-link {
   font-size: 1.1rem;
   color: var(--color-primary-text);
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 .home-members {
   padding: 3rem 0;
