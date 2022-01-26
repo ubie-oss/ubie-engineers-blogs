@@ -315,4 +315,15 @@ export const members: Member[] = [
     githubUsername: 'takanorip',
     websiteUrl: 'https://takanorip.com',
   },
+  {
+    id: 'civitaspo',
+    nickname: 'civitaspo',
+    realName: 'Takahiro Nakayama',
+    bio: 'SRE / Data Engineer / Product Security',
+    avatarSrc: '/avatars/civitaspo.png',
+    sources: ['https://note.com/civitaspo/rss', 'https://zenn.dev/civitaspo/feed'],
+    twitterUsername: 'Civitaspo',
+    githubUsername: 'civitaspo',
+    websiteUrl: 'https://note.com/civitaspo/',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
