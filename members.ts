@@ -326,4 +326,14 @@ export const members: Member[] = [
     githubUsername: 'civitaspo',
     websiteUrl: 'https://note.com/civitaspo/',
   },
+  {
+    id: 'ubie-zenn',
+    nickname: 'Ubie, Inc.',
+    realName: 'zenn.dev/ubie',
+    bio: 'Ubie株式会社のブログです。',
+    avatarSrc: 'https://storage.googleapis.com/zenn-user-upload/avatar/213e7c330e.jpeg',
+    sources: ['https://zenn.dev/ubie/feed'],
+    twitterUsername: 'ubiecorp_jp',
+    websiteUrl: 'https://ubie.life/',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
