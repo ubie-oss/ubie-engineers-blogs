@@ -327,6 +327,17 @@ export const members: Member[] = [
     websiteUrl: 'https://note.com/civitaspo/',
   },
   {
+    id: 'ohtaman',
+    nickname: 'おおたまん',
+    realName: 'Mitsuhisa Ota',
+    bio: '機械学習エンジニアです。',
+    avatarSrc: '/avatars/ohtaman.jpg',
+    sources: ['https://zenn.dev/ohtaman/feed'],
+    twitterUsername: 'ohtaman',
+    githubUsername: 'ohtaman',
+    websiteUrl: 'https://ohtaman.github.io/',
+  },
+  {
     id: 'ubie-zenn',
     nickname: 'Ubie, Inc.',
     realName: 'zenn.dev/ubie',
