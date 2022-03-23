@@ -130,8 +130,8 @@ export const members: Member[] = [
     bio: 'Webと長濱ねるさんが好きです',
     avatarSrc: '/avatars/yuku.png',
     sources: ['https://yuku.dev/feed.xml', 'https://zenn.dev/yuku/feed'],
-    githubUsername: 'Monchi',
-    twitterUsername: 'MonchiFC',
+    githubUsername: 'yukukotani',
+    twitterUsername: 'yukukotani',
     websiteUrl: 'https://yuku.dev',
   },
   {
