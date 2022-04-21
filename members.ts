@@ -283,18 +283,6 @@ export const members: Member[] = [
     twitterUsername: "hokaccha",
   },
   {
-    id: "dtaniwaki",
-    nickname: "dtaniwaki",
-    realName: "Daisuke Taniwaki",
-    bio: "Software Engineer.",
-    avatarSrc: "/avatars/dtaniwaki.jpeg",
-    sources: ['https://note.com/dtaniwaki/rss'],
-    includeUrlRegex: 'note.com/dtaniwaki',
-    twitterUsername: 'dtaniwaki',
-    githubUsername: 'dtaniwaki',
-    websiteUrl: 'https://note.com/dtaniwaki',
-  },
-  {
     id: 'takahi-i',
     nickname: 'takahi-i',
     realName: '伊藤敬彦',
