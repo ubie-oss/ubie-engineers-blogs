@@ -357,4 +357,14 @@ export const members: Member[] = [
     twitterUsername: 'hiloki',
     githubUsername: 'hiloki',
   },
+  {
+    id: 'sosukesuzuki',
+    nickname: 'sosukesuzuki',
+    realName: 'Sosuke Suzuki',
+    bio: 'Software Engineer',
+    avatarSrc: '/avatars/sosukesuzuki.jpg',
+    sources: ['https://sosukesuzuki.dev/feed.xml', 'https://zenn.dev/sosukesuzuki/feed'],
+    twitterUsername: '__sosukesuzuki',
+    githubUsername: 'sosukesuzuki',
+  },
 ].sort((a, b) => (a.nickname < b.nickname ? -1 : 1));
