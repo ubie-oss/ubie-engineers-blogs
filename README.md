@@ -1,8 +1,8 @@
-# Ubie Engineers' Blogs
+# GENDA Creators Blog
 
-Fork of https://github.com/catnose99/team-blog-hub
+Fork of https://github.com/ubie-oss/ubie-engineers-blogs
 
-published at: https://blog.ubie.tech/
+published at: https://blog.genda.jp/
 
 ## Development
 

@@ -21,7 +21,7 @@ const Page: NextPage<Props> = (props) => {
         <ContentWrapper>
           <header className="member-header">
             <figure className="member-header__avatar">
-              <img src={avatarSrc} alt={nickname} width={200} height={200} className="member-header__avatar-img" />
+              <img src={`/creators${avatarSrc}`} alt={nickname} width={200} height={200} className="member-header__avatar-img" />
             </figure>
             <h1 className="member-header__nickname">{nickname}</h1>
             <p className="member-header__real-name">{realName}</p>
@@ -29,17 +29,17 @@ const Page: NextPage<Props> = (props) => {
             <div className="member-header__links">
               {twitterUsername && (
                 <a href={`https://twitter.com/${twitterUsername}`} className="member-header__link">
-                  <img src="/icons/twitter.svg" alt={`Twitterのユーザー@${twitterUsername}`} width={22} height={22} />
+                  <img src="/creators/icons/twitter.svg" alt={`Twitterのユーザー@${twitterUsername}`} width={22} height={22} />
                 </a>
               )}
               {githubUsername && (
                 <a href={`https://github.com/${githubUsername}`} className="member-header__link">
-                  <img src="/icons/github.svg" alt={`GitHubのユーザー@${githubUsername}`} width={22} height={22} />
+                  <img src="/creators/icons/github.svg" alt={`GitHubのユーザー@${githubUsername}`} width={22} height={22} />
                 </a>
               )}
               {websiteUrl && (
                 <a href={websiteUrl} className="member-header__link">
-                  <img src="/icons/link.svg" alt={`ウェブサイトのリンク`} width={22} height={22} />
+                  <img src="/creators/icons/link.svg" alt={`ウェブサイトのリンク`} width={22} height={22} />
                 </a>
               )}
             </div>
