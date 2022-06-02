@@ -1,18 +1,18 @@
 export const config = {
   siteMeta: {
-    title: "Ubie Engineers' Blogs",
-    teamName: 'Ubie Discovery',
-    description: 'Ubie Discoveryに所属するエンジニアのブログ記事をまとめています。',
+    title: "GENDA Creators Blog",
+    teamName: 'GENDA Inc.',
+    description: '株式会社GENDAに所属するプロダクト開発に関わるメンバーのブログ記事をまとめています。',
   },
-  siteRoot: process.env.NODE_ENV === 'production' ? 'https://blog.ubie.tech' : 'http://localhost:3000',
+  siteRoot: process.env.NODE_ENV === 'production' ? 'https://blog.genda.jp/creators' : 'http://localhost:3000/creators',
   headerLinks: [
     {
       title: 'Company',
-      href: 'https://ubie.life/',
+      href: 'https://genda.jp/',
     },
     {
       title: 'Recruit',
-      href: 'https://recruit.ubie.life/jd_dev',
+      href: 'https://hrmos.co/pages/genda',
     },
   ],
 };

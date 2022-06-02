@@ -15,7 +15,7 @@ const MemberCard: React.FC<{ member: Member }> = ({ member }) => {
       <a className="member-card">
         <figure className="member-card__avatar">
           <img
-            src={member.avatarSrc}
+            src={`/creators${member.avatarSrc}`}
             alt={member.nickname}
             width={80}
             height={80}

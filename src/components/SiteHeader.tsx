@@ -9,11 +9,11 @@ export const SiteHeader: React.FC = () => (
       <div className="site-header__inner">
         <Link href="/" passHref>
           <a className="site-header__logo-link">
-            <img src="/logo.png" alt={config.siteMeta.title} className="site-header__logo-img" />
+            <img src="/creators/logo.png" alt={config.siteMeta.title} className="site-header__logo-img" />
             <span className="site-header__logo-text">
-              Ubie
+              GENDA
               <br />
-              Engineers' Blogs
+              Creators Blog
             </span>
           </a>
         </Link>
